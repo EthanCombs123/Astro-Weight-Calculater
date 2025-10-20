@@ -22,6 +22,7 @@ if (!document.hidden) tryPlay();
 });
 }
 
+
 // --- Populate planets + calculator ---
 const planets = [
 ['Mercury', 0.377], ['Venus', 0.9032], ['Earth', 1],
@@ -98,3 +99,4 @@ document.addEventListener('DOMContentLoaded', init);
 } else {
 init();
 }
+// Changes made//
